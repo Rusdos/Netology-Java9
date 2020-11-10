@@ -1,13 +1,14 @@
 package ru.netology.domain;
 
-public class viewsInfo {
-    private boolean isView;
+public class ViewsInfo {
+    private int count;
 
-    public boolean isView() {
-        return isView;
+
+    public int getCount() {
+        return count;
     }
 
-    public void setView(boolean view) {
-        isView = view;
+    public void setCount(int count) {
+        this.count = count;
     }
 }
