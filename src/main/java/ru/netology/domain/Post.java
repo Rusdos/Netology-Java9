@@ -9,7 +9,7 @@ public class Post {
     private String url;
     private Button subscribeButton;
     private DateFormat postDate;
-    private String Content;
+    private String content;
     private Attachment attach;
     private likesInfo likesInfo;
     private commentsInfo commentsInfo;
