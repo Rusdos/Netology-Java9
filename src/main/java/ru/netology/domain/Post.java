@@ -28,7 +28,6 @@ public class Post {
     private boolean isFavorite;
     private Donut donut;
     private int postponedId;
-    private Attachment attach;
 
 
     public int getId() {
@@ -239,13 +238,6 @@ public class Post {
         this.postponedId = postponedId;
     }
 
-    public Attachment getAttach() {
-        return attach;
-    }
-
-    public void setAttach(Attachment attach) {
-        this.attach = attach;
-    }
 }
 
 
